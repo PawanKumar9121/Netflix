@@ -1,0 +1,316 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100%;
+    background-image: radial-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6)), url("./netflix.png");
+    height: 70vh;
+    border-bottom: 7px solid grey;
+}
+.navbar{
+    height: 20%;
+    display: flex;
+
+    justify-content: space-around;
+    align-items: end;
+}
+.logo{
+    height: 70%;
+}
+.logoImage{
+    height: 100%;
+    width: 100%;
+}
+.navOption{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.navLang{
+    color: white;
+    background-color: transparent;
+    padding: 2px 15px 2px 15px;
+    font-size: medium;
+    width: 25%;
+    height: 30%;
+    outline: auto;
+}
+.SignInButton{
+    padding: 7px;
+    width: 20%;
+    height: 35%;
+    font-size: large;
+    background-color: #e50914;
+    color: white;
+    border-color: transparent;
+    outline: black;
+    border-radius: 10%;
+}
+.container{
+    display: flex;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
+.mailcontainer{
+    width: 40%;
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 2%;
+
+}
+#email{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    outline: white;
+    padding: 3.5%;
+    border-radius: 3%;
+    margin-right: 1%;
+}
+#email:hover{
+    border: 2px solid white;
+
+}
+#submitbutton{
+    height: 150%;
+    width: 30%;
+    background-color: red;
+    color: aliceblue;
+    padding: 1%;
+    font-size: medium;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    text-align: center;
+    align-items: center;
+}
+.containerTwo{
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-bottom: 7px solid grey;
+}
+.textpart{
+    display: flex;
+    color: white;
+    padding: 10%;
+    flex-direction: column;
+    justify-content: center;
+    font-size:larger;
+    
+}
+.Image{
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     text-align: left;
+    flex-direction: column;
+}
+.containerThree{
+    display: flex;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    border-bottom: 7px solid grey;
+
+}
+.imagePart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content2{
+    display: block;
+    color: white;
+    font-size: x-large;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.containerfour{
+    display: flex;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-bottom: 7px solid grey;
+}
+.textPart{
+    display: block;
+    padding: 10%;
+    color: white;
+    font-size: x-large;
+}
+.ImagePart{
+    height: 100%;
+    width: 100%;
+}
+.containerfive{
+    display: flex;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid grey;
+}
+.Image2{
+    height: 100%;
+    width: 100%;
+}
+.textpart3{
+    display: block;
+    color: white;
+    padding: 10%;
+    font-size: x-large;
+}
+.faq{
+    height: 90vh;
+    width: 100%;
+    border-bottom: 1.4vh solid rgb(73, 72, 71 );
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption{
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2%;
+    justify-content: center;
+
+}
+.questions{
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 1.5%;
+}
+.faqBox{
+    width: 50%;
+    height: 15%;
+    background-color: #2d2d2d;
+    margin-bottom: 0.5%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.emailContainer{
+    display: flex;
+    width: 40%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#emailcontainer{
+    width: 80%;
+    height: 70%;
+    background-color: transparent;
+    color: white;
+    outline: white;
+    padding: 1%;
+    border-radius: 1%;
+    margin-right: 1%;
+    font-size: large;
+}
+#getStarted{
+    
+    height: 70%;
+    width: 25%;
+    background-color: red;
+    color: aliceblue;
+    size: 1rem;
+    padding: 1%;
+    border-radius: 2%;
+    border: none;
+    outline: none;
+    margin-left: 1%;
+    font-size: large;
+}
+
+.foot{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    
+}
+.languageDropdown2{
+    height: 150%;
+    width: 150%;
+    font-size: medium;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    border-radius: 7%;
+}
+.white{
+    color: gray;
+    font-size: 1.2rem;
+}
+table{
+    width: 60%;
+    height: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.end{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    flex-direction: column;
+    align-items: start;
+}
+.endhere{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+#starthere{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-right: 45%;
+}

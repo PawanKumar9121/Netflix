@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.maincontainer{
+    width: 100%;
+    height: 150vh;
+    background-image: url("./netflix.png");
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 70%;
+    align-items: center;
+}
+.logoPart{
+    display: flex;
+    height: 15%;
+    width: 15%;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+.containerTwo{
+    display: flex;
+    height: 55%;
+    width: 30%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    flex-direction: column;
+    margin-left: 35%;
+    opacity: 90%;
+}
+#SignIn{
+   display: flex;
+   margin-left: 12%;
+   margin-top: 10%;
+   font-style: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   
+}
+#emailpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 12%;
+    width: 70%;
+    height: 8%;
+    background-color: transparent;
+
+}
+#passwordpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 12%;
+    width: 70%;
+    height: 8%;
+    background-color: transparent;
+
+}
+#signin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 12%;
+    width: 70%;
+    height: 8%;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    border-radius: 7%;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-right: 70%;
+}
+#needhelp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    margin-left: 80%;
+    color: grey;
+}
+#end{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    color: gray;
+    font-family: sans-serif;
+
+}
+.containerThree{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 28%;
+    margin-top: 4%;
+    opacity: 85%;
+    color: white;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
